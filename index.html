@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Revisão interativa de Redação estilo ENEM">
+    <title>Redação ENEM | Revisão Interativa</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="hero">
+        <nav class="navbar">
+            <div class="logo">Linguagens<span>.</span></div>
+
+            <button class="menu-btn" id="menuBtn" aria-label="Abrir menu">
+                ☰
+            </button>
+
+            <div class="nav-links" id="navLinks">
+                <a href="#inicio">Início</a>
+                <a href="#estrutura">Estrutura</a>
+                <a href="#competencias">Competências</a>
+                <a href="#repertorio">Repertório</a>
+                <a href="#quiz">Quiz</a>
+            </div>
+        </nav>
+
+        <div class="hero-content" id="inicio">
+            <div class="tag">ÁREA DO CONHECIMENTO · LINGUAGENS</div>
+
+            <h1>
+                Redação ENEM:
+                <span>escreva para alcançar 1000.</span>
+            </h1>
+
+            <p>
+                Um guia rápido e interativo para revisar a estrutura,
+                as competências e as principais estratégias da redação
+                do ENEM.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#estrutura" class="btn primary">Começar revisão</a>
+                <a href="#quiz" class="btn secondary">Fazer quiz</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- VISÃO GERAL -->
+        <section class="section">
+            <div class="section-title">
+                <span>01</span>
+                <div>
+                    <p class="eyebrow">VISÃO GERAL</p>
+                    <h2>O que você precisa dominar?</h2>
+                </div>
+            </div>
+
+            <div class="cards overview-cards">
+
+                <article class="card">
+                    <div class="icon">✍️</div>
+                    <h3>Dissertação-argumentativa</h3>
+                    <p>
+                        Defenda um ponto de vista sobre o tema apresentado,
+                        utilizando argumentos consistentes.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <div class="icon">🎯</div>
+                    <h3>Tema e tese</h3>
+                    <p>
+                        Compreenda o recorte temático e apresente uma tese
+                        clara desde a introdução.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <div class="icon">🧠</div>
+                    <h3>Argumentação</h3>
+                    <p>
+                        Utilize repertórios socioculturais pertinentes para
+                        sustentar e aprofundar sua argumentação.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <div class="icon">💡</div>
+                    <h3>Proposta de intervenção</h3>
+                    <p>
+                        Apresente uma solução detalhada e relacionada ao
+                        problema discutido no texto.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- ESTRUTURA -->
+        <section class="section dark-section" id="estrutura">
+
+            <div class="section-title light">
+                <span>02</span>
+                <div>
+                    <p class="eyebrow">ESTRUTURA</p>
+                    <h2>O esqueleto da redação</h2>
+                </div>
+            </div>
+
+            <div class="timeline">
+
+                <article class="timeline-item">
+                    <div class="number">1</div>
+                    <div>
+                        <h3>Introdução</h3>
+                        <p>
+                            Contextualize o tema, apresente o problema e
+                            deixe clara a sua tese.
+                        </p>
+                        <span class="tip">Contextualização + tema + tese</span>
+                    </div>
+                </article>
+
+                <article class="timeline-item">
+                    <div class="number">2</div>
+                    <div>
+                        <h3>Desenvolvimento I</h3>
+                        <p>
+                            Apresente seu primeiro argumento e desenvolva-o
+                            por meio de explicações, exemplos e repertórios.
+                        </p>
+                        <span class="tip">Argumento + repertório + análise</span>
+                    </div>
+                </article>
+
+                <article class="timeline-item">
+                    <div class="number">3</div>
+                    <div>
+                        <h3>Desenvolvimento II</h3>
+                        <p>
+                            Desenvolva uma segunda perspectiva relacionada
+                            à problemática apresentada.
+                        </p>
+                        <span class="tip">Novo argumento + aprofundamento</span>
+                    </div>
+                </article>
+
+                <article class="timeline-item">
+                    <div class="number">4</div>
+                    <div>
+                        <h3>Conclusão</h3>
+                        <p>
+                            Retome a problemática e apresente uma proposta
+                            de intervenção detalhada.
+                        </p>
+                        <span class="tip">Agente + ação + meio + finalidade + detalhamento</span>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- COMPETÊNCIAS -->
+        <section class="section" id="competencias">
+
+            <div class="section-title">
+                <span>03</span>
+                <div>
+                    <p class="eyebrow">AS 5 COMPETÊNCIAS</p>
+                    <h2>Como a redação é avaliada?</h2>
+                </div>
+            </div>
+
+            <div class="competencies">
+
+                <button class="competency active" data-competency="1">
+                    <span>C1</span>
+                    <strong>Norma-padrão</strong>
+                </button>
+
+                <button class="competency" data-competency="2">
+                    <span>C2</span>
+                    <strong>Compreensão do tema</strong>
+                </button>
+
+                <button class="competency" data-competency="3">
+                    <span>C3</span>
+                    <strong>Argumentação</strong>
+                </button>
+
+                <button class="competency" data-competency="4">
+                    <span>C4</span>
+                    <strong>Coesão</strong>
+                </button>
+
+                <button class="competency" data-competency="5">
+                    <span>C5</span>
+                    <strong>Intervenção</strong>
+                </button>
+
+            </div>
+
+            <div class="competency-content" id="competencyContent">
+                <span class="big-number">C1</span>
+                <div>
+                    <h3>Domínio da modalidade escrita formal</h3>
+                    <p>
+                        Avalia o domínio da norma-padrão da língua portuguesa,
+                        considerando aspectos como ortografia, concordância,
+                        regência, pontuação e construção sintática.
+                    </p>
+                    <div class="highlight">
+                        💡 Dica: reserve alguns minutos para revisar o texto
+                        antes de passar a limpo.
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- REPERTÓRIO -->
+        <section class="section repertory-section" id="repertorio">
+
+            <div class="section-title">
+                <span>04</span>
+                <div>
+                    <p class="eyebrow">REPERTÓRIO SOCIOCULTURAL</p>
+                    <h2>Tenha referências que você realmente domina.</h2>
+                </div>
+            </div>
+
+            <p class="section-intro">
+                O repertório não deve aparecer apenas como uma citação.
+                Ele precisa estar relacionado ao argumento e ajudar a
+                explicar o problema discutido.
+            </p>
+
+            <div class="repertory-grid">
+
+                <article class="repertory">
+                    <span class="repertory-type">FILOSOFIA</span>
+                    <h3>John Locke</h3>
+                    <p>
+                        Direitos naturais e papel do Estado na proteção
+                        dos indivíduos.
+                    </p>
+                </article>
+
+                <article class="repertory">
+                    <span class="repertory-type">SOCIOLOGIA</span>
+                    <h3>Zygmunt Bauman</h3>
+                    <p>
+                        Reflexões sobre a modernidade líquida e as relações
+                        sociais contemporâneas.
+                    </p>
+                </article>
+
+                <article class="repertory">
+                    <span class="repertory-type">LITERATURA</span>
+                    <h3>Carolina Maria de Jesus</h3>
+                    <p>
+                        A desigualdade social e a realidade das populações
+                        marginalizadas aparecem em sua produção.
+                    </p>
+                </article>
+
+                <article class="repertory">
+                    <span class="repertory-type">CONSTITUIÇÃO</span>
+                    <h3>Constituição Federal</h3>
+                    <p>
+                        Direitos fundamentais podem ser utilizados para
+                        discutir cidadania, igualdade e dignidade.
+                    </p>
+                </article>
+
+                <article class="repertory">
+                    <span class="repertory-type">CINEMA</span>
+                    <h3>Tempos Modernos</h3>
+                    <p>
+                        A obra de Charlie Chaplin permite discutir trabalho,
+                        industrialização e relações sociais.
+                    </p>
+                </article>
+
+                <article class="repertory">
+                    <span class="repertory-type">SOCIEDADE</span>
+                    <h3>Milton Santos</h3>
+                    <p>
+                        Suas reflexões podem contribuir para discussões sobre
+                        espaço, desigualdade e globalização.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- CONECTIVOS -->
+        <section class="section connectors-section">
+
+            <div class="section-title">
+                <span>05</span>
+                <div>
+                    <p class="eyebrow">COESÃO</p>
+                    <h2>Conectivos para organizar as ideias</h2>
+                </div>
+            </div>
+
+            <div class="connector-grid">
+
+                <div>
+                    <h3>Adição</h3>
+                    <p>Além disso · Ademais · Somado a isso</p>
+                </div>
+
+                <div>
+                    <h3>Contraste</h3>
+                    <p>Entretanto · Todavia · Contudo</p>
+                </div>
+
+                <div>
+                    <h3>Causa</h3>
+                    <p>Visto que · Em razão de · Porque</p>
+                </div>
+
+                <div>
+                    <h3>Consequência</h3>
+                    <p>Desse modo · Assim · Consequentemente</p>
+                </div>
+
+                <div>
+                    <h3>Conclusão</h3>
+                    <p>Portanto · Logo · Diante disso</p>
+                </div>
+
+                <div>
+                    <h3>Exemplificação</h3>
+                    <p>Por exemplo · Como ocorre em · A exemplo de</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CHECKLIST -->
+        <section class="section checklist-section">
+
+            <div class="section-title">
+                <span>06</span>
+                <div>
+                    <p class="eyebrow">ANTES DE ENTREGAR</p>
+                    <h2>Checklist da redação</h2>
+                </div>
+            </div>
+
+            <div class="checklist" id="checklist">
+
+                <label>
+                    <input type="checkbox">
+                    <span>Fugi do tema?</span>
+                </label>
+
+                <label>
+                    <input type="checkbox">
+                    <span>Minha tese está clara?</span>
+                </label>
+
+                <label>
+                    <input type="checkbox">
+                    <span>Meus argumentos estão desenvolvidos?</span>
+                </label>
+
+                <label>
+                    <input type="checkbox">
+                    <span>Utilizei repertórios pertinentes?</span>
+                </label>
+
+                <label>
+                    <input type="checkbox">
+                    <span>Utilizei conectivos adequadamente?</span>
+                </label>
+
+                <label>
+                    <input type="checkbox">
+                    <span>Minha conclusão apresenta intervenção?</span>
+                </label>
+
+                <label>
+                    <input type="checkbox">
+                    <span>Revisei ortografia e pontuação?</span>
+                </label>
+
+            </div>
+
+            <div class="progress-container">
+                <div class="progress-info">
+                    <span>Progresso</span>
+                    <strong id="progressText">0%</strong>
+                </div>
+
+                <div class="progress-bar">
+                    <div id="progressBar"></div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- QUIZ -->
+        <section class="section quiz-section" id="quiz">
+
+            <div class="section-title light">
+                <span>07</span>
+                <div>
+                    <p class="eyebrow">REVISÃO RÁPIDA</p>
+                    <h2>Teste seus conhecimentos</h2>
+                </div>
+            </div>
+
+            <div class="quiz-card">
+
+                <div class="quiz-top">
+                    <span id="questionNumber">Questão 1 de 5</span>
+                    <span id="score">Pontuação: 0</span>
+                </div>
+
+                <h3 id="question">
+                    Qual é a principal função da tese na redação?
+                </h3>
+
+                <div id="answers" class="answers"></div>
+
+                <button class="btn primary quiz-next" id="nextButton" disabled>
+                    Próxima questão →
+                </button>
+
+                <div class="quiz-result" id="quizResult"></div>
+
+            </div>
+
+        </section>
+
+        <!-- DICA FINAL -->
+        <section class="final-section">
+
+            <div>
+                <p class="eyebrow">PARA LEMBRAR</p>
+                <h2>Não basta ter boas ideias.<br>É preciso conectá-las.</h2>
+            </div>
+
+            <p>
+                Uma boa redação apresenta projeto de texto, argumentação,
+                repertório produtivo, coesão e uma proposta de intervenção
+                coerente com a discussão.
+            </p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div>
+                <strong>Linguagens<span>.</span></strong>
+                <p>Revisão interativa · Redação ENEM</p>
+            </div>
+
+            <p>Projeto educacional • HTML + CSS + JavaScript</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
